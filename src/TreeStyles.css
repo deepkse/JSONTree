@@ -1,0 +1,24 @@
+.node__root > circle {
+    fill: #1976d2;
+  }
+  
+  .node__branch > circle {
+    fill: #64b5f6;
+  }
+  
+  .node__leaf > circle {
+    fill: #e3f2fd;
+    stroke: #64b5f6;
+  }
+  
+  .node__leaf .rd3t-label__title,
+  .node__branch .rd3t-label__title,
+  .node__root .rd3t-label__title {
+    fill: black;
+  }
+  
+  .rd3t-link {
+    stroke: #64b5f6;
+  }
+
+  
